@@ -1,0 +1,75 @@
+/*
+ * Nombre del programador: Cristian Sandoval
+ * Materia: Programacion 2
+ * Detalle: esta clase es el que almacena los estilos de la pagina html y de servlet
+ * Versión:
+ ***/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 78vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#6437b7;
+
+
+}
+
+.form{
+    position: relative;
+    background-color: #805bf3;
+    padding: 50px 55px 85px 55px;
+    box-shadow: 0 0 20px rgb(0, 0, 0,0.9);
+    border-radius: 15px;
+    justify-content: center;
+    text-align: center;
+
+}
+.title{
+    font-family: 'Poppins',sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+.Box input{
+    width: 100%;
+    height: 100%;
+    background-color:#aeb2c08a;
+    border: none;
+    outline: none;
+    border: 1px solid;
+    border-color: rgb(72, 81, 88);
+    border-radius: 9px;
+    padding: 5px 20px 10px 10px
+
+
+
+}
+
+.btn a{
+    background-color: #6437b7;
+    width: 30%;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor:pointer;
+    border: 2px solid ;
+    border-color:#6437b7;
+    margin-top: 15px;
+    padding: 5px 20px 10px 10px;
+    box-shadow: 0 0 25px #6437b7;
+    color:white;
+    text-decoration:none;
+    text-align: center;
+
+
+
+}

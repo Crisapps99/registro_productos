@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 78vh;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../../wallhaven-q6qdp5.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.container {
+    width: 100%; margin: 0 auto; text-align: center;
+}
+.factura {
+    border: 2px solid #000; padding: 20px;
+}
+table {
+    width: 100%; border-collapse: collapse;
+}
+th, td {
+    border: 2px solid #000; padding: 8px; text-align: left;
+}
+
+
+.container p{
+    font-size: 19px;
+    text-align: right;
+    font-family: Arial, sans-serif;
+
+}
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+
+}
+
+body{
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../../wallhaven-q6qdp5.png");
+
+}
+
+.form{
+    top: 50px;
+    width: 80%;
+    position: relative;
+    background-color: #c8114b;
+    padding: 50px 55px 85px 55px;
+    box-shadow: 0 0 60px black;
+    border-radius: 15px;
+    justify-content: center;
+    color: white;
+    left: 10%;
+
+
+}
+.title{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+
+.btn{
+    text-decoration: none;
+    background-color:#0fbdd9;
+    width:50%;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor:pointer;
+    margin-top: 15px;
+    padding: 5px 20px 10px 10px;
+    box-shadow: 0 0 10px #0fbdd9;
+    color:white;
+
+}
+

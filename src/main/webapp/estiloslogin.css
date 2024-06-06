@@ -1,0 +1,79 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 78vh;
+    align-items: center;
+    justify-content: center;
+    background-image: url("wallhaven-q6qdp5.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+form{
+    top: 50px;
+    width: 40%;
+    position: relative;
+    background-color: #c8114b;
+    padding: 50px 55px 85px 55px;
+    box-shadow: 0 0 60px black;
+    border-radius: 15px;
+    justify-content: center;
+    left: 25%;
+}
+.usuario{
+    position: relative;
+    /* separa los campos */
+    margin-bottom: 20px;
+}
+
+.usuario input {
+    margin-top: 90px;
+    width: 100%; /* Ajusta el ancho del campo de entrada */
+    padding: 10px; /* Ajusta el relleno del campo de entrada */
+    border: none; /* Elimina el borde del campo de entrada */
+    border-radius: 5px; /* Agrega un borde redondeado al campo de entrada */
+    background-color: #e6e6e6;
+    transition: background-color 0.3s;
+    margin-top: 80px;
+}
+
+.btn input {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn input:hover{
+    background-color: #45a049;
+}
+.usuario label{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    pointer-events: none;
+    color: white;
+    transition: top 0.3s, left 0.3s, font-size 0.3s;
+    z-index: 1;
+    margin-top: 30px;
+}
+form h3{
+    font-size: 25px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    text-align: center;
+    transform: translateX(-50%);
+    text-transform: uppercase;
+    color: white;
+}
+.imagen img{
+    width:30%;
+    display: block;
+    margin: 20px auto 0;
+}
+.imagen{
+    margin-top: 20px;
+
+}

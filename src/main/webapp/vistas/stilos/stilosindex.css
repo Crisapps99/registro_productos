@@ -1,0 +1,67 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 78vh;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url("../../wallhaven-q6qdp5.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+form{
+    top: 100px;
+    width: 50%;
+    position: relative;
+    background-color: #c8114b;
+    padding: 50px 55px 85px 55px;
+    box-shadow: 0 0 60px black;
+    border-radius: 15px;
+    justify-content: center;
+    left: 25%;
+}
+form ul li{
+    /* este es para desalinear los links */
+    display: inline-block;
+    /* este ajusta la separacion de los ul li a */
+    margin: 0 20px;
+}
+form ul li a {
+    display: block;
+    margin-top: 50px;
+    padding: 10px 40px;
+    /* para quitar las decoraciones del teexto  */
+    text-decoration: none;
+    color: black;
+    background-color: antiquewhite;
+    border-radius:5px;
+}
+form ul li a:hover{
+    background-color: #ff8989;
+}
+form ul{
+    padding: 0;
+    /* este quita los puntos de la izquierda */
+    list-style-type: none;
+    justify-content: center;
+}
+form h3{
+    font-size: 25px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    text-align: center;
+    transform: translateX(-50%);
+    color: white;
+}
+.imagen img{
+    width:30%;
+    display: block;
+    margin: 20px auto 0;
+}
+.imagen{
+    margin-top: 20px;
+
+}

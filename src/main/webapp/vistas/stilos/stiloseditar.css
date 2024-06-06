@@ -1,0 +1,71 @@
+/* Para que el body tenga la imagen de fondo y se centre */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../../wallhaven-q6qdp5.png");
+}
+
+/* Formularios */
+.contenedor__login-register {
+    justify-content: center;
+    align-items: center;
+    width: 750px;
+    margin-top: 20px;
+}
+
+.contenedor__login-register form {
+    width: 100%;
+    padding: 20px 30px;
+    box-shadow: 0px 0px 25px #3a3a48;
+    border-radius: 20px;
+    background-color: white;
+    margin-left: 150px;
+}
+
+/* Título h2 */
+.contenedor__login-register form h2 {
+    font-size: 40px;
+    text-align: center;
+    color: #0fbdd9;
+}
+
+.contenedor__login-register form label {
+    font-size: 18px;
+    color: #292933;
+    display: block; /* Asegura que los labels sean bloques y no en línea */
+    margin-top: 20px;
+}
+
+/* Los input, select y textarea */
+.contenedor__login-register form input,
+.contenedor__login-register form select,
+.contenedor__login-register form textarea {
+    width: 100%;
+    margin-top: 5px; /* Espacio pequeño entre label e input */
+    padding: 10px;
+    border: none;
+    background: #f2f2f2;
+    font-size: 16px;
+    outline: none;
+    border-radius: 10px;
+    align-items: center;
+
+}
+
+
+/* Botón de submit */
+.contenedor__login-register form button {
+    padding: 10px 40px;
+    margin-top: 40px;
+    border: none;
+    font-size: 14px;
+    background: #FFB40B;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
